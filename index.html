@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>Lu Apps — Luxury-Crafted Apps for Apple</title>
 <meta name="description" content="A small studio building a growing collection of privacy-first, luxury-crafted apps for iPhone, iPad, Mac, and Apple Watch. Lu — short for Luxury."/>
-<meta name="theme-color" content="#f7f2e8"/>
+<meta name="theme-color" content="#0f1d38"/>
 <meta name="keywords" content="Lu Apps, LuNote, LuSnake, LuHorary, LuTask, LuGenie, LuBite, LuDrive, LuPin, iPhone apps, iPad apps, Mac apps, Apple Watch apps, privacy-first apps, note taking app, on-device AI"/>
 <link rel="canonical" href="https://luapps.app/"/>
 <meta name="robots" content="index, follow, max-image-preview:large"/>
@@ -39,109 +39,111 @@
 
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;background:#f7f2e8;color:#211d17;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,sans-serif;color:#e9eff9;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;
+background:radial-gradient(1100px 720px at 50% -8%,rgba(91,140,255,.16),transparent 62%),radial-gradient(900px 640px at 4% 18%,rgba(236,76,155,.12),transparent 60%),radial-gradient(950px 720px at 96% 96%,rgba(35,179,126,.12),transparent 60%),#0f1d38;background-attachment:fixed}
 .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-weight:600;letter-spacing:-.01em}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
-.gold{color:#a8823f}
-.grad-gold{background:linear-gradient(120deg,#b8934a,#e2c883 55%,#a97f38);-webkit-background-clip:text;background-clip:text;color:transparent}
-.rule{width:58px;height:1px;background:linear-gradient(90deg,#c9a557,#e9d6a8)}
-.kicker{font-size:.72rem;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:#a8823f}
+.gold{background:linear-gradient(100deg,#6aa2ff,#c58cff 42%,#ff86c2 70%,#ffd27a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.grad-gold{background:linear-gradient(100deg,#6aa2ff,#c58cff 42%,#ff86c2 70%,#ffd27a);-webkit-background-clip:text;background-clip:text;color:transparent}
+.rule{width:58px;height:2px;border-radius:2px;background:linear-gradient(90deg,#3b7de9,#ec4c9b)}
+.kicker{font-size:.72rem;font-weight:700;letter-spacing:.26em;text-transform:uppercase;color:#8fa4cc}
 /* announce */
-.announce{background:#211d17;color:#f0e9da;text-align:center;font-size:.84rem;font-weight:600;padding:9px 16px}
+.announce{background:linear-gradient(90deg,rgba(35,179,126,.18),rgba(59,125,233,.18),rgba(236,76,155,.18)),#0a1526;color:#eaf1ff;text-align:center;font-size:.84rem;font-weight:600;padding:9px 16px;border-bottom:1px solid rgba(255,255,255,.07)}
 .announce a{display:inline-flex;gap:10px;align-items:center;flex-wrap:wrap;justify-content:center}
-.announce .g{color:#e2c883}
+.announce .g{color:#8ff0cb}
 /* nav */
-nav{position:sticky;top:0;z-index:50;background:rgba(247,242,232,.82);backdrop-filter:blur(14px);border-bottom:1px solid #e6dcc8}
+nav{position:sticky;top:0;z-index:50;background:rgba(15,29,56,.72);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
 .navin{max-width:1080px;margin:0 auto;padding:15px 28px;display:flex;align-items:center;justify-content:space-between}
 .brand{display:flex;align-items:center;gap:10px;font-family:ui-rounded,"SF Pro Rounded","Hiragino Maru Gothic ProN",system-ui,sans-serif;font-weight:800;font-size:1.16rem}
-.brand img,.brand svg{width:34px;height:34px;border-radius:9px;display:block}
-.nlinks{display:flex;gap:28px}.nlinks a{color:#5a5145;font-weight:600;font-size:.92rem}.nlinks a:hover{color:#211d17}
+.brand img{width:34px;height:34px;border-radius:9px;display:block;box-shadow:0 0 0 1px rgba(255,255,255,.14)}
+.nlinks{display:flex;gap:28px}.nlinks a{color:#a9b7d0;font-weight:600;font-size:.92rem}.nlinks a:hover{color:#fff}
 .ncta{display:flex;align-items:center;gap:14px}
 .btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.9rem;transition:.25s;cursor:pointer;border:none}
-.btn-d{color:#f7f2e8;background:#211d17;padding:12px 24px;border-radius:3px}.btn-d:hover{background:#a8823f}
-.btn-o{color:#211d17;background:transparent;border:1px solid #cdbfa6;padding:12px 24px;border-radius:3px}.btn-o:hover{border-color:#211d17}
-.mtoggle{display:none;background:none;border:1px solid #cdbfa6;border-radius:8px;width:44px;height:44px;font-size:1.2rem;cursor:pointer}
+.btn-d{color:#fff;background:linear-gradient(105deg,#3b7de9,#8a5cf0 45%,#ec4c9b);background-size:180% 180%;padding:12px 24px;border-radius:100px;box-shadow:0 12px 30px -12px rgba(236,76,155,.5)}.btn-d:hover{background-position:100% 0;transform:translateY(-2px)}
+.btn-o{color:#e9eff9;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.18);padding:12px 24px;border-radius:100px}.btn-o:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.4)}
+.mtoggle{display:none;background:none;border:1px solid rgba(255,255,255,.18);border-radius:10px;width:44px;height:44px;font-size:1.2rem;color:#e9eff9;cursor:pointer}
 /* hero */
-.hero{padding:96px 0 84px;border-bottom:1px solid #e6dcc8}
+.hero{padding:96px 0 84px;border-bottom:1px solid rgba(255,255,255,.08)}
 .hero .rule{margin:22px 0}
-h1{font-size:clamp(2.9rem,7vw,5.6rem);font-weight:600;line-height:1.02;letter-spacing:-.02em}
+h1{font-size:clamp(2.9rem,7vw,5.6rem);font-weight:600;line-height:1.02;letter-spacing:-.02em;color:#fff}
 h1 em{font-style:italic}
-.lead{max-width:58ch;color:#5a5145;font-size:clamp(1.08rem,1.7vw,1.32rem);margin:26px 0 32px}
+.lead{max-width:58ch;color:#a9b7d0;font-size:clamp(1.08rem,1.7vw,1.32rem);margin:26px 0 32px}
 .cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
-.note{margin-top:40px;display:flex;gap:14px 26px;flex-wrap:wrap;color:#8a7f6c;font-weight:600;font-size:.86rem}
-.note span{display:inline-flex;align-items:center;gap:8px}.note b{color:#a8823f}
+.note{margin-top:40px;display:flex;gap:14px 26px;flex-wrap:wrap;color:#7f8ca6;font-weight:600;font-size:.86rem}
+.note span{display:inline-flex;align-items:center;gap:8px}.note b{color:#6aa2ff}
 .sec{padding:100px 0}
 .shead{margin-bottom:56px;max-width:640px}
 .shead.center{margin:0 auto 56px;text-align:center}
-h2{font-size:clamp(2.2rem,4.6vw,3.4rem);font-weight:600;letter-spacing:-.02em;margin:14px 0}
-.shead p{color:#5a5145;font-size:1.06rem}
+h2{font-size:clamp(2.2rem,4.6vw,3.4rem);font-weight:600;letter-spacing:-.02em;margin:14px 0;color:#fff}
+.shead p{color:#a9b7d0;font-size:1.06rem}
 /* collection rows */
-.row{display:grid;grid-template-columns:54px 92px 1fr auto;gap:28px;align-items:center;padding:34px 0;border-top:1px solid #e6dcc8}
-.rows .row:last-child{border-bottom:1px solid #e6dcc8}
-.num{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.6rem;color:#c8b184}
-.ico{width:82px;height:82px;border-radius:19px;background-size:cover;background-position:center;box-shadow:0 14px 30px -14px rgba(70,52,20,.45),inset 0 0 0 1px rgba(0,0,0,.05)}
-.rbody .cat{font-size:.7rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#a8823f;margin-bottom:5px}
-.rbody h3{font-size:1.55rem;font-weight:600;font-family:"Iowan Old Style",Palatino,Georgia,serif;display:flex;align-items:center;gap:13px;flex-wrap:wrap}
-.rbody p{color:#5a5145;font-size:.98rem;margin-top:8px;max-width:64ch}
-.tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:.72rem;font-weight:600;color:#6b6151;padding:4px 12px;border:1px solid #ddd2be;border-radius:100px}
-.badge{font-size:.63rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:100px;white-space:nowrap}
-.b-live{color:#1f7a52;background:#dff3e8;border:1px solid #a9dcc3}
-.b-flagship{color:#6b4e12;background:linear-gradient(120deg,#f0dca8,#e3c987);border:1px solid #d8bd7c}
-.b-next{color:#5a3ea8;background:#ece6fb;border:1px solid #cfc2f0}
-.b-dev{color:#2b5aa8;background:#e5edfa;border:1px solid #bcd0ef}
+.row{display:grid;grid-template-columns:54px 92px 1fr auto;gap:28px;align-items:center;padding:34px 0;border-top:1px solid rgba(255,255,255,.08)}
+.rows .row:last-child{border-bottom:1px solid rgba(255,255,255,.08)}
+.num{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.6rem}
+.ico{width:82px;height:82px;border-radius:19px;background-size:cover;background-position:center;box-shadow:0 16px 32px -16px rgba(0,0,0,.7),inset 0 0 0 1px rgba(255,255,255,.08)}
+.rbody .cat{font-size:.7rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:#8fa4cc;margin-bottom:5px}
+.rbody h3{font-size:1.55rem;font-weight:600;font-family:"Iowan Old Style",Palatino,Georgia,serif;display:flex;align-items:center;gap:13px;flex-wrap:wrap;color:#fff}
+.rbody p{color:#a9b7d0;font-size:.98rem;margin-top:8px;max-width:64ch}
+.tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:.72rem;font-weight:600;color:#a9b7d0;padding:4px 12px;border:1px solid rgba(255,255,255,.12);border-radius:100px}
+.badge{font-size:.63rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 11px;border-radius:100px;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+.b-live{color:#8ff0cb;background:rgba(35,224,143,.14);border:1px solid rgba(35,224,143,.36)}
+.b-live::before{content:"";width:6px;height:6px;border-radius:50%;background:#23e08f;box-shadow:0 0 0 0 rgba(35,224,143,.6);animation:pl 1.8s infinite}
+@keyframes pl{70%{box-shadow:0 0 0 7px rgba(35,224,143,0)}100%{box-shadow:0 0 0 0 rgba(35,224,143,0)}}
+.b-flagship{color:#ffd98a;background:rgba(246,178,27,.15);border:1px solid rgba(246,178,27,.38)}
+.b-next{color:#ffa8d0;background:rgba(236,76,155,.15);border:1px solid rgba(236,76,155,.36)}
+.b-dev{color:#9ec5ff;background:rgba(59,125,233,.14);border:1px solid rgba(59,125,233,.34)}
 .rside{text-align:right;min-width:120px}
-.appstore{display:inline-block;font-size:.8rem;font-weight:700;color:#f7f2e8;background:#211d17;padding:10px 16px;border-radius:3px}.appstore:hover{background:#a8823f}
+.appstore{display:inline-block;font-size:.8rem;font-weight:700;color:#fff;background:linear-gradient(105deg,#3b7de9,#8a5cf0);padding:10px 16px;border-radius:100px}.appstore:hover{transform:translateY(-2px)}
 /* name band */
-.band{text-align:center;padding:96px 0;background:#efe6d5;border-top:1px solid #e6dcc8;border-bottom:1px solid #e6dcc8}
+.band{text-align:center;padding:96px 0;border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08);background:radial-gradient(120% 150% at 50% -20%,rgba(59,125,233,.18),transparent 60%),rgba(255,255,255,.02)}
 .band .rule{margin:24px auto}
 .band h2{margin:16px 0 18px}
-.band p{max-width:60ch;margin:0 auto;color:#5a5145}
+.band p{max-width:60ch;margin:0 auto;color:#a9b7d0}
 /* values */
-.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:#e6dcc8;border:1px solid #e6dcc8;border-radius:14px;overflow:hidden}
-.vc{background:#fbf7ee;padding:34px 30px}
-.vc .n{font-family:"Iowan Old Style",Palatino,Georgia,serif;color:#c8b184;font-size:1.1rem}
-.vc h3{font-size:1.18rem;font-weight:700;margin:8px 0 8px}
-.vc p{color:#5a5145;font-size:.94rem}
+.vgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08);border-radius:14px;overflow:hidden}
+.vc{background:#101f3b;padding:34px 30px}
+.vc .n{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.15rem}
+.vc h3{font-size:1.18rem;font-weight:700;margin:8px 0 8px;color:#fff}
+.vc p{color:#a9b7d0;font-size:.94rem}
 /* platforms */
 .plats{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-.plat{display:flex;align-items:center;gap:10px;padding:13px 22px;border:1px solid #ddd2be;border-radius:100px;font-weight:700;background:#fbf7ee}.plat span{font-size:1.3rem}
+.plat{display:flex;align-items:center;gap:10px;padding:13px 22px;border:1px solid rgba(255,255,255,.12);border-radius:100px;font-weight:700;background:rgba(255,255,255,.03)}
 /* company */
 .company{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
 .vlist{display:flex;flex-direction:column;gap:16px;margin-top:24px}
 .vlist li{list-style:none;display:flex;gap:14px;align-items:flex-start}
-.vlist .vi{color:#a8823f;font-weight:700;flex:none}
-.vlist b{color:#211d17}.vlist span{color:#5a5145;font-size:.96rem}
-.quote{background:#fbf7ee;border:1px solid #e6dcc8;border-radius:16px;padding:44px 40px;text-align:center}
-.quote .m{font-size:1.5rem;color:#211d17;line-height:1;margin-bottom:14px}
-.quote .big{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.7rem;font-weight:600}
-.quote .cap{margin-top:18px;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#8a7f6c}
+.vlist .vi{color:#6aa2ff;font-weight:700;flex:none}
+.vlist b{color:#fff}.vlist span{color:#a9b7d0;font-size:.96rem}
+.quote{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:44px 40px;text-align:center}
+.quote .m{font-size:2.4rem;line-height:1;margin-bottom:14px}
+.quote .big{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.7rem;font-weight:600;color:#fff}
+.quote .cap{margin-top:18px;font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:#7f8ca6}
 /* faq */
 .faq{max-width:820px;margin:0 auto}
-.qa{border-top:1px solid #e6dcc8}
-.faq .qa:last-child{border-bottom:1px solid #e6dcc8}
-.qa summary{list-style:none;cursor:pointer;padding:22px 4px;font-weight:700;font-size:1.06rem;display:flex;justify-content:space-between;gap:16px;align-items:center}
+.qa{border-top:1px solid rgba(255,255,255,.08)}
+.faq .qa:last-child{border-bottom:1px solid rgba(255,255,255,.08)}
+.qa summary{list-style:none;cursor:pointer;padding:22px 4px;font-weight:700;font-size:1.06rem;display:flex;justify-content:space-between;gap:16px;align-items:center;color:#fff}
 .qa summary::-webkit-details-marker{display:none}
-.qa .pl{color:#a8823f;font-size:1.4rem;transition:.3s}.qa[open] .pl{transform:rotate(45deg)}
-.qa .a{padding:0 4px 24px;color:#5a5145}
+.qa .pl{color:#6aa2ff;font-size:1.4rem;transition:.3s}.qa[open] .pl{transform:rotate(45deg)}
+.qa .a{padding:0 4px 24px;color:#a9b7d0}
 /* contact */
 .contact{max-width:600px;margin:0 auto;text-align:center}
 .cform{margin-top:32px;display:grid;gap:12px;text-align:left}
-.cform input,.cform textarea{width:100%;padding:14px 18px;border-radius:4px;border:1px solid #d8cdb6;background:#fdfaf3;color:#211d17;font:inherit;font-size:.96rem;resize:vertical}
-.cform input::placeholder,.cform textarea::placeholder{color:#9c917d}
-.cform input:focus,.cform textarea:focus{outline:none;border-color:#a8823f;box-shadow:0 0 0 3px rgba(168,130,63,.16)}
-.cform button{justify-self:center;margin-top:6px}
+.cform input,.cform textarea{width:100%;padding:14px 18px;border-radius:12px;border:1px solid rgba(255,255,255,.16);background:rgba(8,18,38,.55);color:#e9eff9;font:inherit;font-size:.96rem;resize:vertical}
+.cform input::placeholder,.cform textarea::placeholder{color:#6f80a0}
+.cform input:focus,.cform textarea:focus{outline:none;border-color:#3b7de9;box-shadow:0 0 0 3px rgba(59,125,233,.22)}
 /* footer */
-footer{border-top:1px solid #e6dcc8;padding:64px 0 40px;background:#efe6d5}
+footer{border-top:1px solid rgba(255,255,255,.08);padding:64px 0 40px;background:rgba(8,18,38,.5)}
 .fgrid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:36px;margin-bottom:44px}
-.fbrand p{color:#5a5145;font-size:.92rem;margin-top:14px;max-width:32ch}
-.fcol h4{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#a8823f;margin-bottom:14px;font-weight:800}
-.fcol a{display:block;color:#5a5145;font-size:.92rem;padding:5px 0}.fcol a:hover{color:#211d17}
-.fbot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;border-top:1px solid #e6dcc8;color:#8a7f6c;font-size:.85rem}
+.fbrand p{color:#a9b7d0;font-size:.92rem;margin-top:14px;max-width:32ch}
+.fcol h4{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#7f8ca6;margin-bottom:14px;font-weight:800}
+.fcol a{display:block;color:#a9b7d0;font-size:.92rem;padding:5px 0}.fcol a:hover{color:#fff}
+.fbot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:24px;border-top:1px solid rgba(255,255,255,.08);color:#6f80a0;font-size:.85rem}
 .reveal{opacity:0;transform:translateY(24px);transition:.8s cubic-bezier(.22,.61,.36,1)}.reveal.in{opacity:1;transform:none}
 @media(max-width:900px){.company{grid-template-columns:1fr;gap:36px}.vgrid{grid-template-columns:1fr}.fgrid{grid-template-columns:1fr 1fr}
 .nlinks,.ncta .btn-o{display:none}.mtoggle{display:flex;align-items:center;justify-content:center}
-.nlinks.open{display:flex;position:absolute;top:70px;left:16px;right:16px;flex-direction:column;gap:6px;padding:14px;background:#fbf7ee;border:1px solid #e6dcc8;border-radius:14px;box-shadow:0 20px 40px -20px rgba(0,0,0,.2)}}
+.nlinks.open{display:flex;position:absolute;top:70px;left:16px;right:16px;flex-direction:column;gap:6px;padding:14px;background:#0f1d38;border:1px solid rgba(255,255,255,.12);border-radius:14px;box-shadow:0 20px 40px -20px rgba(0,0,0,.6)}}
 @media(max-width:640px){.row{grid-template-columns:70px 1fr;gap:16px}.num{grid-row:1;align-self:start}.rside{grid-column:1/-1;text-align:left}.sec{padding:72px 0}}
 </style></head><body>
 
@@ -166,7 +168,7 @@ footer{border-top:1px solid #e6dcc8;padding:64px 0 40px;background:#efe6d5}
 
 <section class="sec" id="collection"><div class="wrap">
 <div class="shead reveal"><div class="kicker">The collection</div><h2 class="serif">Eight apps, one standard.</h2><p>Live apps first, then everything in the making. Each entry is built to the same measure of craft.</p></div>
-<div class="rows"><div class='row reveal'><div class='num'>01</div><div class='ico' style='background-image:var(--ico-lunote)'></div><div class='rbody'><div class='cat'>Productivity</div><h3>LuNote <span class='badge b-flagship'>Flagship</span></h3><p>Your entire knowledge workspace in one app. Handwrite or type notes, annotate PDFs, read EPUBs in a calm reader, and file everything into nested folders. On-device AI summarizes, rewrites, and answers questions about your notes — with Apple Pencil, iCloud sync, and a native Mac app.</p><div class='tags'><span class='tag'>Notes</span><span class='tag'>PDF &amp; EPUB</span><span class='tag'>Apple Pencil</span><span class='tag'>AI assist</span><span class='tag'>iCloud</span></div></div><div class='rside'><a class='appstore' href='https://apps.apple.com/app/id6774542509' target='_blank' rel='noopener'>App Store ↗</a></div></div><div class='row reveal'><div class='num'>02</div><div class='ico' style='background-image:var(--ico-lusnake)'></div><div class='rbody'><div class='cat'>Games</div><h3>LuSnake <span class='badge b-live'>On the App Store</span></h3><p>The Nokia classic, reborn on iPhone. An authentic monochrome LCD look meets modern game design — daily missions, streaks, unlockable power-ups, and swappable themes. Simple to start, impossible to put down.</p><div class='tags'><span class='tag'>Arcade</span><span class='tag'>Retro</span><span class='tag'>Daily missions</span><span class='tag'>Power-ups</span></div></div><div class='rside'><a class='appstore' href='https://apps.apple.com/app/id6780271014' target='_blank' rel='noopener'>App Store ↗</a></div></div><div class='row reveal'><div class='num'>03</div><div class='ico' style='background-image:var(--ico-luhorary)'></div><div class='rbody'><div class='cat'>Lifestyle</div><h3>LuHorary <span class='badge b-next'>Next up</span></h3><p>Traditional horary astrology, done properly. Ask a question and LuHorary casts a real astronomical chart for that exact moment, using authentic Regiomontanus houses and a precise astronomy engine. Thoughtful interpretations, beautifully rendered.</p><div class='tags'><span class='tag'>Astrology</span><span class='tag'>Real charts</span><span class='tag'>Regiomontanus</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num'>04</div><div class='ico' style='background-image:var(--ico-lutask)'></div><div class='rbody'><div class='cat'>Productivity</div><h3>LuTask <span class='badge b-next'>Next up</span></h3><p>Collaborative project management for small teams and families. Shared projects, assignable tasks, due dates, and real-time updates with cloud sync and push notifications — a calm, focused alternative to bloated tools.</p><div class='tags'><span class='tag'>Collaboration</span><span class='tag'>Real-time sync</span><span class='tag'>Teams</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num'>05</div><div class='ico' style='background-image:var(--ico-lugenie)'></div><div class='rbody'><div class='cat'>AI &amp; Utilities</div><h3>LuGenie <span class='badge b-dev'>In development</span></h3><p>A pocket toolkit of on-device AI. Fourteen private, lightning-fast tools — summarize, rewrite, translate, proofread, brainstorm and more — powered by Apple Intelligence, so your text never leaves the device. With Shortcuts, Widgets, and Apple Watch.</p><div class='tags'><span class='tag'>On-device AI</span><span class='tag'>14 tools</span><span class='tag'>Shortcuts</span><span class='tag'>Watch</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num'>06</div><div class='ico' style='background-image:var(--ico-lubite)'></div><div class='rbody'><div class='cat'>Health &amp; Fitness</div><h3>LuBite <span class='badge b-dev'>In development</span></h3><p>Effortless calorie tracking. Snap a photo of your meal and AI estimates the calories and macros — no database searching, no manual logging. Track your day and hit your goals, simply.</p><div class='tags'><span class='tag'>Photo tracking</span><span class='tag'>AI nutrition</span><span class='tag'>Macros</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num'>07</div><div class='ico' style='background-image:var(--ico-ludrive)'></div><div class='rbody'><div class='cat'>Navigation</div><h3>LuDrive <span class='badge b-dev'>In development</span></h3><p>The companion every car owner wants. Save where you parked, track maintenance and fuel, log expenses, and navigate with voice guidance. Manage your whole garage — vehicles, service records, and documents — with CarPlay, Widgets, and Apple Watch.</p><div class='tags'><span class='tag'>Parking</span><span class='tag'>Maintenance</span><span class='tag'>CarPlay</span><span class='tag'>Voice nav</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num'>08</div><div class='ico' style='background-image:var(--ico-lupin)'></div><div class='rbody'><div class='cat'>Privacy &amp; Social</div><h3>LuPin <span class='badge b-dev'>In development</span></h3><p>Privacy-first messaging with no phone number. A PIN is your identity. Messages are end-to-end encrypted with CryptoKit and stored encrypted on-device, with offline Bluetooth mesh. Conversations that stay strictly yours.</p><div class='tags'><span class='tag'>E2E encrypted</span><span class='tag'>No phone number</span><span class='tag'>Offline mesh</span></div></div><div class='rside'></div></div></div>
+<div class="rows"><div class='row reveal'><div class='num' style='color:#5b9bff'>01</div><div class='ico' style='background-image:var(--ico-lunote)'></div><div class='rbody'><div class='cat'>Productivity</div><h3>LuNote <span class='badge b-flagship'>Flagship</span></h3><p>Your entire knowledge workspace in one app. Handwrite or type notes, annotate PDFs, read EPUBs in a calm reader, and file everything into nested folders. On-device AI summarizes, rewrites, and answers questions about your notes — with Apple Pencil, iCloud sync, and a native Mac app.</p><div class='tags'><span class='tag'>Notes</span><span class='tag'>PDF &amp; EPUB</span><span class='tag'>Apple Pencil</span><span class='tag'>AI assist</span><span class='tag'>iCloud</span></div></div><div class='rside'><a class='appstore' href='https://apps.apple.com/app/id6774542509' target='_blank' rel='noopener'>App Store ↗</a></div></div><div class='row reveal'><div class='num' style='color:#f4b93a'>02</div><div class='ico' style='background-image:var(--ico-lusnake)'></div><div class='rbody'><div class='cat'>Games</div><h3>LuSnake <span class='badge b-live'>On the App Store</span></h3><p>The Nokia classic, reborn on iPhone. An authentic monochrome LCD look meets modern game design — daily missions, streaks, unlockable power-ups, and swappable themes. Simple to start, impossible to put down.</p><div class='tags'><span class='tag'>Arcade</span><span class='tag'>Retro</span><span class='tag'>Daily missions</span><span class='tag'>Power-ups</span></div></div><div class='rside'><a class='appstore' href='https://apps.apple.com/app/id6780271014' target='_blank' rel='noopener'>App Store ↗</a></div></div><div class='row reveal'><div class='num' style='color:#ff6fb0'>03</div><div class='ico' style='background-image:var(--ico-luhorary)'></div><div class='rbody'><div class='cat'>Lifestyle</div><h3>LuHorary <span class='badge b-next'>Next up</span></h3><p>Traditional horary astrology, done properly. Ask a question and LuHorary casts a real astronomical chart for that exact moment, using authentic Regiomontanus houses and a precise astronomy engine. Thoughtful interpretations, beautifully rendered.</p><div class='tags'><span class='tag'>Astrology</span><span class='tag'>Real charts</span><span class='tag'>Regiomontanus</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num' style='color:#35c88f'>04</div><div class='ico' style='background-image:var(--ico-lutask)'></div><div class='rbody'><div class='cat'>Productivity</div><h3>LuTask <span class='badge b-next'>Next up</span></h3><p>Collaborative project management for small teams and families. Shared projects, assignable tasks, due dates, and real-time updates with cloud sync and push notifications — a calm, focused alternative to bloated tools.</p><div class='tags'><span class='tag'>Collaboration</span><span class='tag'>Real-time sync</span><span class='tag'>Teams</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num' style='color:#5b9bff'>05</div><div class='ico' style='background-image:var(--ico-lugenie)'></div><div class='rbody'><div class='cat'>AI &amp; Utilities</div><h3>LuGenie <span class='badge b-dev'>In development</span></h3><p>A pocket toolkit of on-device AI. Fourteen private, lightning-fast tools — summarize, rewrite, translate, proofread, brainstorm and more — powered by Apple Intelligence, so your text never leaves the device. With Shortcuts, Widgets, and Apple Watch.</p><div class='tags'><span class='tag'>On-device AI</span><span class='tag'>14 tools</span><span class='tag'>Shortcuts</span><span class='tag'>Watch</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num' style='color:#f4b93a'>06</div><div class='ico' style='background-image:var(--ico-lubite)'></div><div class='rbody'><div class='cat'>Health &amp; Fitness</div><h3>LuBite <span class='badge b-dev'>In development</span></h3><p>Effortless calorie tracking. Snap a photo of your meal and AI estimates the calories and macros — no database searching, no manual logging. Track your day and hit your goals, simply.</p><div class='tags'><span class='tag'>Photo tracking</span><span class='tag'>AI nutrition</span><span class='tag'>Macros</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num' style='color:#ff6fb0'>07</div><div class='ico' style='background-image:var(--ico-ludrive)'></div><div class='rbody'><div class='cat'>Navigation</div><h3>LuDrive <span class='badge b-dev'>In development</span></h3><p>The companion every car owner wants. Save where you parked, track maintenance and fuel, log expenses, and navigate with voice guidance. Manage your whole garage — vehicles, service records, and documents — with CarPlay, Widgets, and Apple Watch.</p><div class='tags'><span class='tag'>Parking</span><span class='tag'>Maintenance</span><span class='tag'>CarPlay</span><span class='tag'>Voice nav</span></div></div><div class='rside'></div></div><div class='row reveal'><div class='num' style='color:#35c88f'>08</div><div class='ico' style='background-image:var(--ico-lupin)'></div><div class='rbody'><div class='cat'>Privacy &amp; Social</div><h3>LuPin <span class='badge b-dev'>In development</span></h3><p>Privacy-first messaging with no phone number. A PIN is your identity. Messages are end-to-end encrypted with CryptoKit and stored encrypted on-device, with offline Bluetooth mesh. Conversations that stay strictly yours.</p><div class='tags'><span class='tag'>E2E encrypted</span><span class='tag'>No phone number</span><span class='tag'>Offline mesh</span></div></div><div class='rside'></div></div></div>
 </div></section>
 
 <section class="band" id="name"><div class="wrap">
@@ -179,7 +181,7 @@ footer{border-top:1px solid #e6dcc8;padding:64px 0 40px;background:#efe6d5}
 
 <section class="sec" id="values"><div class="wrap">
 <div class="shead center reveal"><div class="kicker">What we believe</div><h2 class="serif">Principles behind every pixel.</h2><p>We don't chase feature counts. We chase the feeling of software that simply works — quietly, respectfully, and beautifully.</p></div>
-<div class="vgrid"><div class='vc reveal'><div class='n'>I.</div><h3>Human-first design</h3><p>Interfaces that feel calm, familiar, and quietly powerful — considered down to the last detail, never cluttered.</p></div><div class='vc reveal'><div class='n'>II.</div><h3>Privacy as a principle</h3><p>On-device intelligence and end-to-end encryption wherever it matters. Your data is yours — never sold, never mined.</p></div><div class='vc reveal'><div class='n'>III.</div><h3>Native to Apple</h3><p>Purpose-built with SwiftUI for iPhone, iPad, Mac, and Apple Watch, so every app feels at home on your devices.</p></div><div class='vc reveal'><div class='n'>IV.</div><h3>Focused, not bloated</h3><p>Each app does one thing exceptionally well. No dark patterns, no clutter — only tools that respect your time.</p></div><div class='vc reveal'><div class='n'>V.</div><h3>Made with love</h3><p>We ship, we listen, we refine. Every release is a small act of care, built to stay a joy for years.</p></div><div class='vc reveal'><div class='n'>VI.</div><h3>Made for everyone</h3><p>Localization, accessibility, and inclusive defaults are part of the plan from day one — not an afterthought.</p></div></div>
+<div class="vgrid"><div class='vc reveal'><div class='n' style='color:#5b9bff'>I.</div><h3>Human-first design</h3><p>Interfaces that feel calm, familiar, and quietly powerful — considered down to the last detail, never cluttered.</p></div><div class='vc reveal'><div class='n' style='color:#f4b93a'>II.</div><h3>Privacy as a principle</h3><p>On-device intelligence and end-to-end encryption wherever it matters. Your data is yours — never sold, never mined.</p></div><div class='vc reveal'><div class='n' style='color:#ff6fb0'>III.</div><h3>Native to Apple</h3><p>Purpose-built with SwiftUI for iPhone, iPad, Mac, and Apple Watch, so every app feels at home on your devices.</p></div><div class='vc reveal'><div class='n' style='color:#35c88f'>IV.</div><h3>Focused, not bloated</h3><p>Each app does one thing exceptionally well. No dark patterns, no clutter — only tools that respect your time.</p></div><div class='vc reveal'><div class='n' style='color:#5b9bff'>V.</div><h3>Made with love</h3><p>We ship, we listen, we refine. Every release is a small act of care, built to stay a joy for years.</p></div><div class='vc reveal'><div class='n' style='color:#f4b93a'>VI.</div><h3>Made for everyone</h3><p>Localization, accessibility, and inclusive defaults are part of the plan from day one — not an afterthought.</p></div></div>
 </div></section>
 
 <section class="sec" id="platforms"><div class="wrap">
@@ -189,13 +191,13 @@ footer{border-top:1px solid #e6dcc8;padding:64px 0 40px;background:#efe6d5}
 
 <section class="sec" id="company"><div class="wrap company">
 <div class="reveal"><div class="kicker">The studio</div><h2 class="serif">Crafted by a small studio.</h2>
-<p class="lead" style="margin:18px 0 0;text-align:left;font-size:1.1rem">Lu Apps LLC is a small, independent software studio in the United States. Behind the brand is a tiny team with one simple mission: make software people are genuinely glad to open — private, honest, and a joy to use.</p>
+<p class="lead" style="margin:18px 0 0;font-size:1.1rem">Lu Apps LLC is a small, independent software studio in the United States. Behind the brand is a tiny team with one simple mission: make software people are genuinely glad to open — private, honest, and a joy to use.</p>
 <ul class="vlist">
 <li><span class="vi">§</span><span><b>An independent company.</b> Lu Apps LLC — a United States company.</span></li>
 <li><span class="vi">♥</span><span><b>Made with love.</b> A small team, big care. Every detail is intentional.</span></li>
 <li><span class="vi">🛡</span><span><b>Transparent by design.</b> Clear privacy policies and no data resale — ever.</span></li>
 </ul></div>
-<div class="quote reveal"><div class="m grad-gold serif" style="font-size:2.2rem">Lu</div><div class="big">“Beautiful software, made with love.”</div><div class="cap">Lu Apps LLC · United States</div></div>
+<div class="quote reveal"><div class="m grad-gold serif">Lu</div><div class="big">“Beautiful software, made with love.”</div><div class="cap">Lu Apps LLC · United States</div></div>
 </div></section>
 
 <section class="sec" id="faq"><div class="wrap">
@@ -205,7 +207,7 @@ footer{border-top:1px solid #e6dcc8;padding:64px 0 40px;background:#efe6d5}
 
 <section class="sec" id="contact"><div class="wrap">
 <div class="contact reveal"><div class="kicker">Get in touch</div><h2 class="serif" style="margin-top:14px">Say hello.</h2>
-<p style="color:#5a5145;margin-top:6px">Questions, feedback, press, or partnership ideas — we read every message and reply personally.</p>
+<p style="color:#a9b7d0;margin-top:6px">Questions, feedback, press, or partnership ideas — we read every message and reply personally.</p>
 <form id="cform" class="cform">
 <input type="hidden" name="access_key" value="c86b0001-f63f-4319-8203-81bc410764ad">
 <input type="hidden" name="subject" value="New message from luapps.app">
@@ -245,9 +247,9 @@ if(cf){cf.addEventListener('submit',async function(e){
  try{
   var r=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)});
   var j=await r.json();
-  if(j.success){cf.reset();msg.style.color='#1f7a52';msg.textContent='Thank you — your message is on its way. We usually reply within a day.';}
-  else{msg.style.color='#b0432f';msg.textContent=(j.message||'Something went wrong')+'. Please try again.';}
- }catch(err){msg.style.color='#b0432f';msg.textContent='Network error — please try again.';}
+  if(j.success){cf.reset();msg.style.color='#23e08f';msg.textContent='Thank you — your message is on its way. We usually reply within a day.';}
+  else{msg.style.color='#ff8fa3';msg.textContent=(j.message||'Something went wrong')+'. Please try again.';}
+ }catch(err){msg.style.color='#ff8fa3';msg.textContent='Network error — please try again.';}
  msg.style.display='block';btn.textContent='Send message';btn.disabled=false;
 });}
 </script>
